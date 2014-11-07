@@ -1,0 +1,13 @@
+// Modify the base color of the theme
+$v-app-background-color: hsl(0, 0%, 88%);
+
+$v-font-color: hsl(210, 14%, 53%);
+$v-focus-color: hsl(210, 14%, 53%);
+$v-selection-color: hsl(210, 14%, 53%);
+
+$v-font-size: 12px;
+@import "../valo/valo";
+
+@mixin mytheme {
+  @include valo;
+}
